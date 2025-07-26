@@ -1,0 +1,346 @@
+(footprint "DPC817S-C-TR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "4-Lead Plastic Small Outline (SO), see http://datasheet.octopart.com/OPIA403BTRE-Optek-datasheet-5328560.pdf")
+	(tags "SO SOIC 1.27")
+	(property "Reference" "REF**"
+		(at 0 -3.35 0)
+		(layer "F.SilkS")
+		(uuid "e8819c87-100e-4f0d-b86d-d83617d5b6ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DPC817S-C-TR"
+		(at 0 3.55 0)
+		(layer "F.Fab")
+		(uuid "92f05834-bc4d-4736-9397-1a88e326a825")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fe33812-05fe-46bd-be7e-0382e2af492e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8529964-2599-4b2d-8134-79fea52cee1c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.6 -2.65)
+		(end -3.6 -2.22)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dbe7b400-aec7-4fb6-87df-f7d69eb49791")
+	)
+	(fp_line
+		(start -3.6 2.22)
+		(end -3.6 2.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2377c84-dcde-44b7-81cb-b6b112b46a9c")
+	)
+	(fp_line
+		(start 3.6 -2.65)
+		(end -3.6 -2.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "87ede115-18ef-450c-bb90-471ca95fda81")
+	)
+	(fp_line
+		(start 3.6 -2.65)
+		(end 3.6 -2.22)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b1aea1b1-a352-42df-8e15-c75069704270")
+	)
+	(fp_line
+		(start 3.6 2.65)
+		(end -3.6 2.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c4d9a83-59e0-41ef-acef-0e54add52ae1")
+	)
+	(fp_line
+		(start 3.6 2.65)
+		(end 3.6 2.22)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f0564f1-d269-4f58-941d-bc382c70cfd4")
+	)
+	(fp_poly
+		(pts
+			(xy -4.61 -2.22) (xy -4.85 -2.55) (xy -4.37 -2.55) (xy -4.61 -2.22)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "6a9d4c6b-d0ff-41e3-b01f-39f181bac45f")
+	)
+	(fp_line
+		(start -5.66 -2.27)
+		(end -5.66 2.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dd64e661-32de-48b9-84ca-718d67b19468")
+	)
+	(fp_line
+		(start -5.66 -2.27)
+		(end -3.65 -2.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a6984599-a0f5-4664-90e1-b9572b8e73de")
+	)
+	(fp_line
+		(start -5.66 2.27)
+		(end -3.65 2.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e93f3594-51a7-4b08-a814-fcbd8205e6e3")
+	)
+	(fp_line
+		(start -3.65 -2.7)
+		(end -3.65 -2.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dd06ab86-8c56-4185-bb6e-44240e203336")
+	)
+	(fp_line
+		(start -3.65 2.27)
+		(end -3.65 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "af0b03d5-c7bd-4b54-9d84-d808505b7507")
+	)
+	(fp_line
+		(start -3.65 2.7)
+		(end 3.65 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d65138d3-fc2a-4255-a6c2-5dba7aa7602b")
+	)
+	(fp_line
+		(start 3.65 -2.7)
+		(end -3.65 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "45ef6a7a-cf3a-415c-9364-372ceb25d647")
+	)
+	(fp_line
+		(start 3.65 -2.27)
+		(end 3.65 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5614dfd6-d721-4283-ad76-873e4410d55c")
+	)
+	(fp_line
+		(start 3.65 2.27)
+		(end 3.65 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "871c558e-59e6-474b-a85f-10a1aabb2950")
+	)
+	(fp_line
+		(start 3.65 2.27)
+		(end 5.66 2.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b743cc3a-a3cf-4fa8-a0f8-e2fc85226973")
+	)
+	(fp_line
+		(start 5.66 -2.27)
+		(end 3.65 -2.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3d0a90d0-be60-41af-aaea-0af89fda7d9f")
+	)
+	(fp_line
+		(start 5.66 2.27)
+		(end 5.66 -2.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4788ad4f-7f61-4afc-9340-f66fa1085d62")
+	)
+	(fp_line
+		(start -3.4 -1.95)
+		(end -2.9 -2.45)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2ff2e1cf-9f73-4f9c-b801-8e109746dcd7")
+	)
+	(fp_line
+		(start -3.4 2.45)
+		(end -3.4 -1.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "84708af3-e1cc-4bab-90e8-f9fa6132792b")
+	)
+	(fp_line
+		(start 3.4 -2.45)
+		(end -2.9 -2.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e090d52a-b4e4-4f63-8850-9b568f7b4c6e")
+	)
+	(fp_line
+		(start 3.4 -2.45)
+		(end 3.4 2.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe1a131e-94a4-4c82-b624-71fdcdf07cae")
+	)
+	(fp_line
+		(start 3.4 2.45)
+		(end -3.4 2.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "007f2663-2807-4f55-94f2-d97e1b032a37")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.065 0)
+		(layer "F.Fab")
+		(uuid "e0850968-f1d9-4d78-a0bc-b0cdd2daf8a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.61 -1.27)
+		(size 1.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "85d642f6-e999-49b6-b2bf-aaecaf1b7bf9")
+	)
+	(pad "2" smd rect
+		(at -4.61 1.27)
+		(size 1.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9389c1b7-97d2-469b-b8d0-08564ee29f44")
+	)
+	(pad "3" smd rect
+		(at 4.61 1.27)
+		(size 1.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "802ed030-687d-44ad-909f-f55e597157c0")
+	)
+	(pad "4" smd rect
+		(at 4.61 -1.27)
+		(size 1.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a00f9321-9678-4b33-9940-73ed2028f7d3")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/mls12.3dshapes/DPC817S-C-TR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
