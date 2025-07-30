@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "mls12:7490120110"
 			(at 0 -12.7 0)
 			(effects
 				(font
