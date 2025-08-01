@@ -3833,6 +3833,86 @@
 		)
 		(uuid "fafd254c-a76c-4d9a-9ef3-001f5366328e")
 	)
+	(label "MDI_TD+"
+		(at 175.26 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3304f582-e6a6-4af6-b973-e7e7e5a3b97b")
+	)
+	(label "MDI_RD-"
+		(at 175.26 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3304f582-e6a6-4af6-b973-e7e7e5a3b97c")
+	)
+	(label "MDI_RD+"
+		(at 175.26 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3304f582-e6a6-4af6-b973-e7e7e5a3b97d")
+	)
+	(label "MDI_TD-"
+		(at 175.26 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3304f582-e6a6-4af6-b973-e7e7e5a3b97e")
+	)
+	(label "MDI_TX+"
+		(at 152.4 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3817b4eb-6ec5-4b6f-9023-9f41fd43d2f8")
+	)
+	(label "MDI_RX-"
+		(at 152.4 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3817b4eb-6ec5-4b6f-9023-9f41fd43d2f9")
+	)
+	(label "MDI_RX+"
+		(at 152.4 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3817b4eb-6ec5-4b6f-9023-9f41fd43d2fa")
+	)
+	(label "MDI_TX-"
+		(at 152.4 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3817b4eb-6ec5-4b6f-9023-9f41fd43d2fb")
+	)
 	(hierarchical_label "RX-"
 		(shape output)
 		(at 247.65 76.2 0)
