@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.89,
-          "height": 1.4,
-          "width": 1.4
+          "drill": 0.0,
+          "height": 0.3,
+          "width": 1.55
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -144,11 +144,11 @@
       },
       "teardrop_options": [
         {
-          "td_onpthpad": true,
+          "td_onpthpad": false,
           "td_onroundshapesonly": false,
-          "td_onsmdpad": true,
-          "td_ontrackend": false,
-          "td_onvia": true
+          "td_onsmdpad": false,
+          "td_ontrackend": true,
+          "td_onvia": false
         }
       ],
       "teardrop_parameters": [
@@ -188,6 +188,8 @@
       ],
       "track_widths": [
         0.0,
+        0.2,
+        0.25,
         0.6,
         0.8
       ],
@@ -455,6 +457,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -490,13 +493,41 @@
       },
       {
         "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "CLK_50R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.315874,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "FLASH_50R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.315874,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
         "diff_pair_gap": 0.152937,
         "diff_pair_width": 0.228464,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "MDI_100R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -510,11 +541,25 @@
         "microvia_drill": 0.1,
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.8,
         "via_diameter": 0.8,
         "via_drill": 0.5
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "RMII_50R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.315874,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -594,6 +639,9 @@
       "/ETH-PHY/TX_EN": [
         "RMII_50R"
       ],
+      "/MCU/FLASH.CLK": [
+        "Flash_50R"
+      ],
       "/MCU/FLASH.IO_{0}": [
         "Flash_50R"
       ],
@@ -604,6 +652,9 @@
         "Flash_50R"
       ],
       "/MCU/FLASH.IO_{3}": [
+        "Flash_50R"
+      ],
+      "/MCU/FLASH.~{CS}": [
         "Flash_50R"
       ],
       "/MCU/FLASH_IO_{0}": [
@@ -641,6 +692,36 @@
       ],
       "Net-(TR1-TX-)": [
         "MDI_100R"
+      ],
+      "Net-(U2-CRS_DV{slash}PHYAD[1:0])": [
+        "RMII_50R"
+      ],
+      "Net-(U2-REF_CLK)": [
+        "RMII_50R"
+      ],
+      "Net-(U2-RXD0)": [
+        "RMII_50R"
+      ],
+      "Net-(U2-RXD1)": [
+        "RMII_50R"
+      ],
+      "Net-(U4A-PA5)": [
+        "RMII_50R"
+      ],
+      "Net-(U4A-PA8)": [
+        "CLK_50R"
+      ],
+      "Net-(U4B-PB10)": [
+        "Flash_50R"
+      ],
+      "Net-(U4B-PB12)": [
+        "RMII_50R"
+      ],
+      "Net-(U4B-PB15)": [
+        "RMII_50R"
+      ],
+      "Net-(U4B-PB2)": [
+        "Flash_50R"
       ]
     },
     "netclass_patterns": []

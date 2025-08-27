@@ -4102,7 +4102,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 205.74) (xy 116.84 205.74)
+			(xy 93.98 205.74) (xy 116.84 205.74)
 		)
 		(stroke
 			(width 0)
@@ -4122,7 +4122,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 215.9) (xy 165.1 215.9)
+			(xy 163.83 215.9) (xy 166.37 215.9)
 		)
 		(stroke
 			(width 0)
@@ -4152,7 +4152,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 210.82) (xy 165.1 210.82)
+			(xy 163.83 210.82) (xy 166.37 210.82)
 		)
 		(stroke
 			(width 0)
@@ -4262,7 +4262,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 198.12) (xy 87.63 198.12)
+			(xy 86.36 198.12) (xy 88.9 198.12)
 		)
 		(stroke
 			(width 0)
@@ -4392,7 +4392,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 210.82) (xy 184.15 210.82)
+			(xy 171.45 210.82) (xy 184.15 210.82)
 		)
 		(stroke
 			(width 0)
@@ -4932,7 +4932,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 223.52) (xy 165.1 223.52)
+			(xy 163.83 223.52) (xy 166.37 223.52)
 		)
 		(stroke
 			(width 0)
@@ -5122,7 +5122,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 198.12) (xy 109.22 198.12)
+			(xy 93.98 198.12) (xy 109.22 198.12)
 		)
 		(stroke
 			(width 0)
@@ -5302,7 +5302,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 190.5) (xy 184.15 190.5)
+			(xy 171.45 190.5) (xy 184.15 190.5)
 		)
 		(stroke
 			(width 0)
@@ -5452,7 +5452,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 190.5) (xy 165.1 190.5)
+			(xy 163.83 190.5) (xy 166.37 190.5)
 		)
 		(stroke
 			(width 0)
@@ -5542,7 +5542,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 223.52) (xy 184.15 223.52)
+			(xy 171.45 223.52) (xy 184.15 223.52)
 		)
 		(stroke
 			(width 0)
@@ -5662,7 +5662,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 215.9) (xy 184.15 215.9)
+			(xy 171.45 215.9) (xy 184.15 215.9)
 		)
 		(stroke
 			(width 0)
@@ -5772,7 +5772,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 205.74) (xy 87.63 205.74)
+			(xy 86.36 205.74) (xy 88.9 205.74)
 		)
 		(stroke
 			(width 0)
@@ -6844,6 +6844,203 @@
 		)
 		(uuid "f5a2e703-d500-4b7d-9371-6a874b442437")
 	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 165.1 210.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "01414e27-525e-4c41-9fed-a7d96d388843")
+		(property "Netclass" "Flash_50R"
+			(at 165.7985 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 572.77 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 87.63 198.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a72fc8a-18a3-4c9b-8487-2739496ac2e0")
+		(property "Netclass" "RMII_50R"
+			(at 88.3285 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 327.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 165.1 215.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "675b01ef-3989-402f-9bb1-c7697b01bebc")
+		(property "Netclass" "RMII_50R"
+			(at 165.7985 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 405.13 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 87.63 205.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "71218c78-9b94-4796-9c5d-c26157a06414")
+		(property "Netclass" "CLK_50R"
+			(at 88.3285 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at -207.01 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 165.1 223.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7ea84f01-fffb-4111-96af-8b7df2ddc189")
+		(property "Netclass" "RMII_50R"
+			(at 165.7985 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 405.13 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 165.1 190.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dcf5aa20-45f4-44fd-bdf6-f72c7cfd07fd")
+		(property "Netclass" "Flash_50R"
+			(at 165.7985 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 572.77 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 124.46 101.6 0)
@@ -6912,7 +7109,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 167.64 223.52 90)
+		(at 168.91 223.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6920,7 +7117,7 @@
 		(dnp no)
 		(uuid "0a58ee91-4b48-4043-9e16-0b1cad403ba6")
 		(property "Reference" "R26"
-			(at 171.45 222.25 90)
+			(at 172.72 222.25 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6928,7 +7125,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 167.64 223.52 90)
+			(at 168.91 223.52 90)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -6936,7 +7133,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 167.64 223.52 0)
+			(at 168.91 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6945,7 +7142,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.be/datasheet/2/210/ASC_WR-3314721.pdf"
-			(at 167.64 223.52 0)
+			(at 168.91 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6954,7 +7151,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 167.64 223.52 0)
+			(at 168.91 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6963,7 +7160,7 @@
 			)
 		)
 		(property "MF" "Walsin"
-			(at 167.64 223.52 90)
+			(at 168.91 223.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6972,7 +7169,7 @@
 			)
 		)
 		(property "MPN" "WR06X330 JTL"
-			(at 167.64 223.52 90)
+			(at 168.91 223.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6981,7 +7178,7 @@
 			)
 		)
 		(property "TODO" ""
-			(at 167.64 223.52 90)
+			(at 168.91 223.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7368,7 +7565,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 90.17 205.74 90)
+		(at 91.44 205.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7376,7 +7573,7 @@
 		(dnp no)
 		(uuid "2b2107ad-053d-40e3-bb25-67baef26cf91")
 		(property "Reference" "R21"
-			(at 93.98 204.47 90)
+			(at 95.25 204.47 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7384,7 +7581,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 90.17 205.74 90)
+			(at 91.44 205.74 90)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -7392,7 +7589,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 90.17 205.74 0)
+			(at 91.44 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7401,7 +7598,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.be/datasheet/2/210/ASC_WR-3314721.pdf"
-			(at 90.17 205.74 0)
+			(at 91.44 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7410,7 +7607,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 90.17 205.74 0)
+			(at 91.44 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7419,7 +7616,7 @@
 			)
 		)
 		(property "MF" "Walsin"
-			(at 90.17 205.74 90)
+			(at 91.44 205.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7428,7 +7625,7 @@
 			)
 		)
 		(property "MPN" "WR06X330 JTL"
-			(at 90.17 205.74 90)
+			(at 91.44 205.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7437,7 +7634,7 @@
 			)
 		)
 		(property "TODO" ""
-			(at 90.17 205.74 90)
+			(at 91.44 205.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8944,7 +9141,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 90.17 198.12 90)
+		(at 91.44 198.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8952,7 +9149,7 @@
 		(dnp no)
 		(uuid "7f75b62b-09fd-4789-9b98-32209935a32a")
 		(property "Reference" "R20"
-			(at 93.98 196.85 90)
+			(at 95.25 196.85 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8960,7 +9157,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 90.17 198.12 90)
+			(at 91.44 198.12 90)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -8968,7 +9165,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 90.17 198.12 0)
+			(at 91.44 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8977,7 +9174,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.be/datasheet/2/210/ASC_WR-3314721.pdf"
-			(at 90.17 198.12 0)
+			(at 91.44 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8986,7 +9183,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 90.17 198.12 0)
+			(at 91.44 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8995,7 +9192,7 @@
 			)
 		)
 		(property "MF" "Walsin"
-			(at 90.17 198.12 90)
+			(at 91.44 198.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9004,7 +9201,7 @@
 			)
 		)
 		(property "MPN" "WR06X330 JTL"
-			(at 90.17 198.12 90)
+			(at 91.44 198.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9013,7 +9210,7 @@
 			)
 		)
 		(property "TODO" ""
-			(at 90.17 198.12 90)
+			(at 91.44 198.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9395,7 +9592,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 167.64 215.9 90)
+		(at 168.91 215.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9403,7 +9600,7 @@
 		(dnp no)
 		(uuid "8e07cb79-fd47-4d81-8c82-a3ac1bf320f6")
 		(property "Reference" "R25"
-			(at 171.45 214.63 90)
+			(at 172.72 214.63 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9411,7 +9608,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 167.64 215.9 90)
+			(at 168.91 215.9 90)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -9419,7 +9616,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 167.64 215.9 0)
+			(at 168.91 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9428,7 +9625,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.be/datasheet/2/210/ASC_WR-3314721.pdf"
-			(at 167.64 215.9 0)
+			(at 168.91 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9437,7 +9634,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 167.64 215.9 0)
+			(at 168.91 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9446,7 +9643,7 @@
 			)
 		)
 		(property "MF" "Walsin"
-			(at 167.64 215.9 90)
+			(at 168.91 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9455,7 +9652,7 @@
 			)
 		)
 		(property "MPN" "WR06X330 JTL"
-			(at 167.64 215.9 90)
+			(at 168.91 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9464,7 +9661,7 @@
 			)
 		)
 		(property "TODO" ""
-			(at 167.64 215.9 90)
+			(at 168.91 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10548,7 +10745,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 167.64 210.82 90)
+		(at 168.91 210.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10556,7 +10753,7 @@
 		(dnp no)
 		(uuid "bdde8133-c381-47a8-ab64-1ccd519b42d5")
 		(property "Reference" "R24"
-			(at 171.45 209.55 90)
+			(at 172.72 209.55 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -10564,7 +10761,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 167.64 210.82 90)
+			(at 168.91 210.82 90)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -10572,7 +10769,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 167.64 210.82 0)
+			(at 168.91 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10581,7 +10778,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.be/datasheet/2/210/ASC_WR-3314721.pdf"
-			(at 167.64 210.82 0)
+			(at 168.91 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10590,7 +10787,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 167.64 210.82 0)
+			(at 168.91 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10599,7 +10796,7 @@
 			)
 		)
 		(property "MF" "Walsin"
-			(at 167.64 210.82 90)
+			(at 168.91 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10608,7 +10805,7 @@
 			)
 		)
 		(property "MPN" "WR06X330 JTL"
-			(at 167.64 210.82 90)
+			(at 168.91 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10617,7 +10814,7 @@
 			)
 		)
 		(property "TODO" ""
-			(at 167.64 210.82 90)
+			(at 168.91 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12343,7 +12540,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 167.64 190.5 90)
+		(at 168.91 190.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12351,7 +12548,7 @@
 		(dnp no)
 		(uuid "e4cb2ed9-54be-4e94-8f0b-d16a473693c7")
 		(property "Reference" "R23"
-			(at 171.45 189.23 90)
+			(at 172.72 189.23 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -12359,7 +12556,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 167.64 190.5 90)
+			(at 168.91 190.5 90)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -12367,7 +12564,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 167.64 190.5 0)
+			(at 168.91 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12376,7 +12573,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.be/datasheet/2/210/ASC_WR-3314721.pdf"
-			(at 167.64 190.5 0)
+			(at 168.91 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12385,7 +12582,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 167.64 190.5 0)
+			(at 168.91 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12394,7 +12591,7 @@
 			)
 		)
 		(property "MF" "Walsin"
-			(at 167.64 190.5 90)
+			(at 168.91 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12403,7 +12600,7 @@
 			)
 		)
 		(property "MPN" "WR06X330 JTL"
-			(at 167.64 190.5 90)
+			(at 168.91 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12412,7 +12609,7 @@
 			)
 		)
 		(property "TODO" ""
-			(at 167.64 190.5 90)
+			(at 168.91 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
