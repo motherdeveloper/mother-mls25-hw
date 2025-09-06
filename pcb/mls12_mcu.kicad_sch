@@ -4312,16 +4312,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 195.58) (xy 109.22 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29a3830c-3127-4c09-a324-117ae102b25d")
-	)
-	(wire
-		(pts
 			(xy 234.95 53.34) (xy 229.87 53.34)
 		)
 		(stroke
@@ -5370,16 +5360,6 @@
 		)
 		(uuid "bd0c94a4-285b-4bef-88fd-a26061f75001")
 	)
-	(wire
-		(pts
-			(xy 109.22 194.31) (xy 116.84 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be4608c7-e224-4960-8488-b3d5e01e5df3")
-	)
 	(bus
 		(pts
 			(xy 111.76 195.58) (xy 111.76 200.66)
@@ -5552,16 +5532,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 195.58) (xy 109.22 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0d44c49-b9e4-44b5-b128-ad86b1ce2b62")
-	)
-	(wire
-		(pts
 			(xy 113.03 81.28) (xy 113.03 82.55)
 		)
 		(stroke
@@ -5659,6 +5629,16 @@
 			(type default)
 		)
 		(uuid "e30c14ba-aa89-4958-ac18-72460a248f70")
+	)
+	(wire
+		(pts
+			(xy 237.49 222.25) (xy 260.35 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3284602-f7c6-4d0d-9a46-5dc331f8c39f")
 	)
 	(wire
 		(pts
@@ -6769,7 +6749,7 @@
 	)
 	(hierarchical_label "PHY_RST"
 		(shape output)
-		(at 116.84 194.31 0)
+		(at 260.35 222.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
