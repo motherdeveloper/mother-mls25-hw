@@ -10911,15 +10911,6 @@
 				(hide yes)
 			)
 		)
-		(property "TODO" ""
-			(at 364.49 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "3ab18b99-737d-4c10-adf5-9b1109f8a02f")
 		)

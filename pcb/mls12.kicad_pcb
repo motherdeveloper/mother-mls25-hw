@@ -10940,7 +10940,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3d2ab329-0a3b-4ab3-aab6-b40155eccefc")
@@ -10952,7 +10952,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ad17316e-f1db-4ec6-a339-3f0025571c13")
@@ -11368,7 +11368,7 @@
 			(uuid "50a09473-e10a-4535-b62f-dcd89f8b303c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.5 1.5 270)
+			(at 1.5 1.5 90)
 			(layer "F.Fab")
 			(uuid "45e9744a-daf3-4540-9ba5-86b32962cbc5")
 			(effects
@@ -11414,6 +11414,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_ZH_B3B-ZR_1x03_P1.50mm_Vertical.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11422,6 +11423,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/mls12.3dshapes/B3B-ZR.STEP"
+			(offset
+				(xyz 1.5 -0.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -19347,6 +19359,18 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Taiyo-Yuden_NR-60xx.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/mls12.3dshapes/L_XND6060YE.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20515,6 +20539,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20523,6 +20548,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/mls12.3dshapes/SM04B-SRSS-TB.STEP"
+			(offset
+				(xyz 0 1.3 -0.35)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -36830,6 +36866,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_ZH_B3B-ZR_1x03_P1.50mm_Vertical.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36838,6 +36875,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/mls12.3dshapes/B3B-ZR.STEP"
+			(offset
+				(xyz 1.5 -0.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
