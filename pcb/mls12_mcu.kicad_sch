@@ -4602,6 +4602,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 193.04) (xy 116.84 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fa65f44-be97-4ddc-a5d4-ff2579ea8933")
+	)
+	(wire
+		(pts
 			(xy 72.39 73.66) (xy 72.39 58.42)
 		)
 		(stroke
@@ -6812,6 +6822,17 @@
 			(justify left)
 		)
 		(uuid "ca9e04e3-4bc4-4688-8dd3-f0c8c7a2b12e")
+	)
+	(hierarchical_label "~{PHY_IRQ}"
+		(shape input)
+		(at 116.84 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df822927-049c-4e5d-8684-b7218f1d7d7b")
 	)
 	(hierarchical_label "PHY{RMII}"
 		(shape bidirectional)
@@ -11410,7 +11431,6 @@
 		)
 		(pin "17"
 			(uuid "e91c718c-c6fd-4d94-b06c-0e2c29befc66")
-			(alternate "PA3_ADC1_INP15")
 		)
 		(instances
 			(project ""
