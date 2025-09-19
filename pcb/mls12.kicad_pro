@@ -58,7 +58,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "items_not_allowed|126130000|89708000|03757305-6f3a-465d-9b65-ae0f1a891247|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|118095000|99488000|03757305-6f3a-465d-9b65-ae0f1a891247|00000000-0000-0000-0000-000000000000",
+          "Annulus adjusted to route between pins"
+        ],
+        [
+          "track_dangling|177750000|112750000|9138804e-5c5d-4ccf-b106-fef251f47ef1|00000000-0000-0000-0000-000000000000",
+          "Xtal guard ring"
+        ],
+        [
+          "track_dangling|183500000|95650000|b04f0285-da8f-4669-a9f7-c32ac961d616|00000000-0000-0000-0000-000000000000",
+          "Xtal guard ring"
+        ],
+        [
+          "track_dangling|184500000|98250000|86c4e2ca-278d-444c-aef2-80deab66cb8b|00000000-0000-0000-0000-000000000000",
+          "Xtal guard ring"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -734,7 +755,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "mls12.step",
       "svg": "",
       "vrml": ""
     },
