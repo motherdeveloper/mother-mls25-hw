@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mls12:7490120110"
+		(property "Footprint" "mls25:7490120110"
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -1291,7 +1291,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mls12:Ag5724-LPB"
+		(property "Footprint" "mls25:Ag5724-LPB"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1502,7 +1502,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mls12:Ag97024-FL"
+		(property "Footprint" "mls25:Ag97024-FL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2095,7 +2095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mls12:LMB110S-TP"
+		(property "Footprint" "mls25:LMB110S-TP"
 			(at 3.81 3.175 0)
 			(effects
 				(font
@@ -2365,7 +2365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mls12:LMR51606_SOT-23-6"
+		(property "Footprint" "mls25:LMR51606_SOT-23-6"
 			(at 1.27 -8.89 0)
 			(effects
 				(font

@@ -1156,7 +1156,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/mls12.3dshapes/Ag97000_Simplified.step"
+	(model "${KIPRJMOD}/mls25.3dshapes/Ag97000_Simplified.step"
 		(offset
 			(xyz 0 3 1.27)
 		)

@@ -332,7 +332,7 @@
 		(uuid "a00f9321-9678-4b33-9940-73ed2028f7d3")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/mls12.3dshapes/DPC817S-C-TR.stp"
+	(model "${KIPRJMOD}/mls25.3dshapes/DPC817S-C-TR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

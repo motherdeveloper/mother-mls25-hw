@@ -234,7 +234,7 @@
 		(uuid "71a80d5b-f732-4ce8-99e2-a1f4a40eb0c6")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/mls12.3dshapes/LMB110S-TP.STEP"
+	(model "${KIPRJMOD}/mls25.3dshapes/LMB110S-TP.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

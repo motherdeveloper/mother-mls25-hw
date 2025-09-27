@@ -1250,7 +1250,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "mls12:7490120110"
+		(symbol "mls25:7490120110"
 			(pin_names
 				(hide yes)
 			)
@@ -2519,7 +2519,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "mls12:ESDS312DBV"
+		(symbol "mls25:ESDS312DBV"
 			(pin_names
 				(hide yes)
 			)
@@ -4638,7 +4638,7 @@
 			(uuid "14205759-1681-4d60-af79-60977fceec53")
 		)
 		(instances
-			(project "mls12"
+			(project "mls25"
 				(path "/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9"
 					(reference "C2")
 					(unit 1)
@@ -4733,7 +4733,7 @@
 			(uuid "f45fadb3-4769-4b65-b334-12afb6e689cc")
 		)
 		(instances
-			(project "mls12"
+			(project "mls25"
 				(path "/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9"
 					(reference "R1")
 					(unit 1)
@@ -4829,7 +4829,7 @@
 			(uuid "1ef63a1d-6efb-4e69-8457-b2a9ecb1d6c9")
 		)
 		(instances
-			(project "mls12"
+			(project "mls25"
 				(path "/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9"
 					(reference "C3")
 					(unit 1)
@@ -4956,7 +4956,7 @@
 			(uuid "8995b226-8b19-4d46-8914-3504d61e3de5")
 		)
 		(instances
-			(project "mls12"
+			(project "mls25"
 				(path "/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9"
 					(reference "J1")
 					(unit 1)
@@ -5053,7 +5053,7 @@
 			(uuid "467d5555-de3c-4776-aa20-3001dbfbebeb")
 		)
 		(instances
-			(project "mls12"
+			(project "mls25"
 				(path "/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9"
 					(reference "R3")
 					(unit 1)
@@ -5062,7 +5062,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mls12:7490120110")
+		(lib_id "mls25:7490120110")
 		(at 163.83 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5087,7 +5087,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mls12:7490120110"
+		(property "Footprint" "mls25:7490120110"
 			(at 163.83 82.55 0)
 			(effects
 				(font
@@ -5178,7 +5178,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mls12:ESDS312DBV")
+		(lib_id "mls25:ESDS312DBV")
 		(at 210.82 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5264,7 +5264,7 @@
 			(uuid "32d10bd8-eeb2-4a08-b059-4ad9f35ce23b")
 		)
 		(instances
-			(project "mls12"
+			(project "mls25"
 				(path "/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9"
 					(reference "D2")
 					(unit 1)
@@ -5330,7 +5330,7 @@
 			(uuid "ffae06c9-28e4-49ac-b509-164ac7098380")
 		)
 		(instances
-			(project "mls12"
+			(project "mls25"
 				(path "/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9"
 					(reference "#PWR01")
 					(unit 1)
@@ -5427,7 +5427,7 @@
 			(uuid "5cb9de04-aac9-4050-9234-9d9f7825a006")
 		)
 		(instances
-			(project "mls12"
+			(project "mls25"
 				(path "/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9"
 					(reference "R2")
 					(unit 1)
@@ -5492,7 +5492,7 @@
 			(uuid "4b3a4aad-a6ca-4c79-b8a5-c88c338a8d3b")
 		)
 		(instances
-			(project "mls12"
+			(project "mls25"
 				(path "/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9"
 					(reference "#PWR06")
 					(unit 1)
@@ -5502,7 +5502,7 @@
 	)
 	(symbol
 		(lib_name "ESDS312DBV_1")
-		(lib_id "mls12:ESDS312DBV")
+		(lib_id "mls25:ESDS312DBV")
 		(at 210.82 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5588,7 +5588,7 @@
 			(uuid "93ac0246-2a84-43e6-96d7-e38f19542836")
 		)
 		(instances
-			(project "mls12"
+			(project "mls25"
 				(path "/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9"
 					(reference "D1")
 					(unit 1)
@@ -5685,7 +5685,7 @@
 			(uuid "bee77ba7-da2f-4bd4-9b8d-c66b8bd4492d")
 		)
 		(instances
-			(project "mls12"
+			(project "mls25"
 				(path "/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9"
 					(reference "R5")
 					(unit 1)
@@ -5750,7 +5750,7 @@
 			(uuid "ea0e99a5-755e-4bff-934c-c731ba381ec4")
 		)
 		(instances
-			(project "mls12"
+			(project "mls25"
 				(path "/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9"
 					(reference "#PWR05")
 					(unit 1)
@@ -5847,7 +5847,7 @@
 			(uuid "c808ba8a-9687-44e4-ae3f-e16d78ddbbdb")
 		)
 		(instances
-			(project "mls12"
+			(project "mls25"
 				(path "/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9"
 					(reference "R4")
 					(unit 1)
@@ -5944,7 +5944,7 @@
 			(uuid "a81b8063-47ad-42c3-96df-82fc1e85abd6")
 		)
 		(instances
-			(project "mls12"
+			(project "mls25"
 				(path "/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9"
 					(reference "C1")
 					(unit 1)
@@ -6010,7 +6010,7 @@
 			(uuid "9fa64f40-b3d8-4326-acba-1779ad8e5308")
 		)
 		(instances
-			(project "mls12"
+			(project "mls25"
 				(path "/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9"
 					(reference "#PWR02")
 					(unit 1)
@@ -6076,7 +6076,7 @@
 			(uuid "b582ff6f-db5c-4acb-8e42-3994be8a03e9")
 		)
 		(instances
-			(project "mls12"
+			(project "mls25"
 				(path "/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9"
 					(reference "#PWR03")
 					(unit 1)

@@ -305,7 +305,7 @@
 		(uuid "18275d2b-98da-4ce6-b142-16e26557d03f")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/mls12.3dshapes/DC Power Plug 2.1x5.5mm.stp"
+	(model "${KIPRJMOD}/mls25.3dshapes/DC Power Plug 2.1x5.5mm.stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -489,7 +489,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "mls12.kicad_pro",
+    "filename": "mls25.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -755,7 +755,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "mls12.step",
+      "step": "mls25.step",
       "svg": "",
       "vrml": ""
     },

@@ -8,7 +8,7 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "MLS12 — PoE LED driver")
+		(title "MLS25 — PoE LED driver")
 		(rev "0")
 		(company "Quomodo BV")
 	)
@@ -287,7 +287,7 @@
 	(net 133 "/ETH-CONN/MDI_RX-")
 	(net 134 "/ETH-CONN/MDI_RX+")
 	(net 135 "/ETH-CONN/MDI_TX-")
-	(footprint "mls12:Ag5724-LPB"
+	(footprint "mls25:Ag5724-LPB"
 		(layer "F.Cu")
 		(uuid "01595f4f-3be2-4f61-8206-0d6e706dd8a0")
 		(at 143.5 92 180)
@@ -369,7 +369,7 @@
 		)
 		(path "/9f8390ae-91ea-4278-be1f-a82b5834f728/62f3114a-08d8-473c-bc5a-dc791e30932d")
 		(sheetname "/ETH-PoE+/")
-		(sheetfile "mls12_eth_poe.kicad_sch")
+		(sheetfile "mls25_eth_poe.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 16.125 10.41)
@@ -745,7 +745,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/mls12.3dshapes/Ag5700.step"
+		(model "${KIPRJMOD}/mls25.3dshapes/Ag5700.step"
 			(offset
 				(xyz -14.5 -8 2.35)
 			)
@@ -851,7 +851,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/fd88bd84-4425-42f4-a172-c05bf2449a6c")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -1091,7 +1091,7 @@
 		(property ki_fp_filters "8P8C* RJ45*")
 		(path "/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9/0f9abec3-8755-4010-b7b5-e38ec215bbb6")
 		(sheetname "/ETH-CONN/")
-		(sheetfile "mls12_eth_conn.kicad_sch")
+		(sheetfile "mls25_eth_conn.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 11.925 -8.11)
@@ -1451,7 +1451,7 @@
 			)
 		)
 	)
-	(footprint "mls12:LMR51606_SOT-23-6"
+	(footprint "mls25:LMR51606_SOT-23-6"
 		(layer "F.Cu")
 		(uuid "04152adb-4d50-4faa-b5fa-0c8d83f1ccde")
 		(at 215.5 102.25)
@@ -1545,7 +1545,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/ae2a8922-e11f-4852-8a4e-ca9ff17bae0c/1efc78e5-1128-4a51-bbe2-2f7b30f153aa")
 		(sheetname "/BUCK 3V3/")
-		(sheetfile "mls12_buck_3v3.kicad_sch")
+		(sheetfile "mls25_buck_3v3.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -1947,7 +1947,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9f8390ae-91ea-4278-be1f-a82b5834f728/e7ef64cd-3dc2-40d8-b07e-ff1000651740")
 		(sheetname "/ETH-PoE+/")
-		(sheetfile "mls12_eth_poe.kicad_sch")
+		(sheetfile "mls25_eth_poe.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -0.91)
@@ -2185,7 +2185,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/643c732c-b7d6-4ad7-813b-2f70dd62e640/0b217305-ea49-43ac-a6f6-b7267d7223d3")
 		(sheetname "/LED output 1/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -2423,7 +2423,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/9a974837-41e9-4c6c-8ece-4301fdb91050")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -2661,7 +2661,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/ac27beac-3b29-4d5d-8263-c15962b8a6dd")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.399622 -0.56)
@@ -2873,7 +2873,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ae2a8922-e11f-4852-8a4e-ca9ff17bae0c/0f822d1e-59e0-4b9c-9e0b-609b911532b9")
 		(sheetname "/BUCK 3V3/")
-		(sheetfile "mls12_buck_3v3.kicad_sch")
+		(sheetfile "mls25_buck_3v3.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -3111,7 +3111,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f9d4ebc4-b22e-4ea3-9755-37111373d6cf/a2eab0d5-e023-4493-9d93-59c00106acbc")
 		(sheetname "/ETH-PHY/")
-		(sheetfile "mls12_eth_phy.kicad_sch")
+		(sheetfile "mls25_eth_phy.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -3349,7 +3349,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f273d9bf-2cbc-4e14-bfba-1c58865ffe37/21e79b5b-2aba-41b9-b03e-af3b2b46df92")
 		(sheetname "/LED output 2/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -3587,7 +3587,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9f8390ae-91ea-4278-be1f-a82b5834f728/564427de-b4ec-4364-a051-d669e0b382cd")
 		(sheetname "/ETH-PoE+/")
-		(sheetfile "mls12_eth_poe.kicad_sch")
+		(sheetfile "mls25_eth_poe.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -1.36)
@@ -3825,7 +3825,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/4556951d-1c16-499f-82df-881e79f8bedb")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -4063,7 +4063,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f273d9bf-2cbc-4e14-bfba-1c58865ffe37/0b217305-ea49-43ac-a6f6-b7267d7223d3")
 		(sheetname "/LED output 2/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -4301,7 +4301,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/643c732c-b7d6-4ad7-813b-2f70dd62e640/dd1c25e3-fc00-4de3-8795-d6d8582ce240")
 		(sheetname "/LED output 1/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -4539,7 +4539,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/dd905802-fda5-4f5e-b338-aa2a4c8e083c")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -4777,7 +4777,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9/06479ce2-e03c-4364-acd5-b55185171dff")
 		(sheetname "/ETH-CONN/")
-		(sheetfile "mls12_eth_conn.kicad_sch")
+		(sheetfile "mls25_eth_conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -5015,7 +5015,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9f8390ae-91ea-4278-be1f-a82b5834f728/77ca519d-bb45-461f-b0e4-32af3a70f1ea")
 		(sheetname "/ETH-PoE+/")
-		(sheetfile "mls12_eth_poe.kicad_sch")
+		(sheetfile "mls25_eth_poe.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -1.36)
@@ -5253,7 +5253,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f9d4ebc4-b22e-4ea3-9755-37111373d6cf/79cf7078-3f88-4978-a2d4-5b9b000413b8")
 		(sheetname "/ETH-PHY/")
-		(sheetfile "mls12_eth_phy.kicad_sch")
+		(sheetfile "mls25_eth_phy.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -5480,7 +5480,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/f9d4ebc4-b22e-4ea3-9755-37111373d6cf/b57770b8-c97b-4692-8b86-f0e5c81e78a7")
 		(sheetname "/ETH-PHY/")
-		(sheetfile "mls12_eth_phy.kicad_sch")
+		(sheetfile "mls25_eth_phy.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start -0.95 -0.95)
@@ -5678,7 +5678,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/3bf08d7a-0190-4033-b9b6-230716e289ea")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -5916,7 +5916,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/643c732c-b7d6-4ad7-813b-2f70dd62e640/ab129ee2-7b81-49f2-99bb-981c8f609d8b")
 		(sheetname "/LED output 1/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -6154,7 +6154,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ae2a8922-e11f-4852-8a4e-ca9ff17bae0c/636bac98-b098-4e99-b1fa-1f2d41e81599")
 		(sheetname "/BUCK 3V3/")
-		(sheetfile "mls12_buck_3v3.kicad_sch")
+		(sheetfile "mls25_buck_3v3.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -6392,7 +6392,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ae2a8922-e11f-4852-8a4e-ca9ff17bae0c/9829a070-a846-451a-b8c2-d4510f62fff0")
 		(sheetname "/BUCK 3V3/")
-		(sheetfile "mls12_buck_3v3.kicad_sch")
+		(sheetfile "mls25_buck_3v3.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -6630,7 +6630,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f273d9bf-2cbc-4e14-bfba-1c58865ffe37/dd6fb59c-def0-4784-987f-1309baedfa02")
 		(sheetname "/LED output 2/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -6868,7 +6868,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9/0f700710-193d-44b6-a8c1-1d9a653c0fd5")
 		(sheetname "/ETH-CONN/")
-		(sheetfile "mls12_eth_conn.kicad_sch")
+		(sheetfile "mls25_eth_conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -7106,7 +7106,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/643c732c-b7d6-4ad7-813b-2f70dd62e640/e32c882f-35d3-4ace-9018-d593707651c1")
 		(sheetname "/LED output 1/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -7344,7 +7344,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/f15d1e43-8064-4a8a-9806-233de6e9b3e4")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -7582,7 +7582,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9/efc9d899-0308-41e1-a71b-5c295120f5d7")
 		(sheetname "/ETH-CONN/")
-		(sheetfile "mls12_eth_conn.kicad_sch")
+		(sheetfile "mls25_eth_conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -0.91)
@@ -7820,7 +7820,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f273d9bf-2cbc-4e14-bfba-1c58865ffe37/ab129ee2-7b81-49f2-99bb-981c8f609d8b")
 		(sheetname "/LED output 2/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -8058,7 +8058,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/b7f4fe1e-f656-4496-a2ee-f5c4f9ba797b")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -8296,7 +8296,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f273d9bf-2cbc-4e14-bfba-1c58865ffe37/eb5e454f-7acf-47a5-87ca-6f0230209abb")
 		(sheetname "/LED output 2/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -8534,7 +8534,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/f9d4ebc4-b22e-4ea3-9755-37111373d6cf/103ca440-61e5-4d0d-b3dd-b6bfeff3393f")
 		(sheetname "/ETH-PHY/")
-		(sheetfile "mls12_eth_phy.kicad_sch")
+		(sheetfile "mls25_eth_phy.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.399622 0.56)
@@ -8772,7 +8772,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9/a53c39dc-01c0-427d-bf3f-f86fbfe76aee")
 		(sheetname "/ETH-CONN/")
-		(sheetfile "mls12_eth_conn.kicad_sch")
+		(sheetfile "mls25_eth_conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -9126,7 +9126,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9/a94aa124-aa4a-4c15-bb04-40b7d58097a1")
 		(sheetname "/ETH-CONN/")
-		(sheetfile "mls12_eth_conn.kicad_sch")
+		(sheetfile "mls25_eth_conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -9364,7 +9364,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f273d9bf-2cbc-4e14-bfba-1c58865ffe37/50d4e395-e6c0-476b-92ef-2607e0bbb49c")
 		(sheetname "/LED output 2/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -9602,7 +9602,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f273d9bf-2cbc-4e14-bfba-1c58865ffe37/d6880453-e54b-410a-9433-9d5f03c1eb5b")
 		(sheetname "/LED output 2/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -9840,7 +9840,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/643c732c-b7d6-4ad7-813b-2f70dd62e640/8256b5ef-aac2-414d-b6b3-4444b6b62ead")
 		(sheetname "/LED output 1/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.4375 -1.8475)
@@ -10215,7 +10215,7 @@
 			)
 		)
 	)
-	(footprint "mls12:DC_Barrel_Plug_2.1x5.5mm"
+	(footprint "mls25:DC_Barrel_Plug_2.1x5.5mm"
 		(layer "F.Cu")
 		(uuid "378e10b5-86e7-49f8-a548-378cbb58432e")
 		(at 227 87)
@@ -10312,7 +10312,7 @@
 		(property ki_fp_filters "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO*")
 		(path "/643c732c-b7d6-4ad7-813b-2f70dd62e640/a18d5b48-e6f0-4e8d-903a-cbb357c83453")
 		(sheetname "/LED output 1/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 0 -2.02)
@@ -10570,7 +10570,7 @@
 			(uuid "a59a01d8-5869-45d7-baa9-6bd233fe078e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/mls12.3dshapes/DC Power Plug 2.1x5.5mm.stp"
+		(model "${KIPRJMOD}/mls25.3dshapes/DC Power Plug 2.1x5.5mm.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10676,7 +10676,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f9d4ebc4-b22e-4ea3-9755-37111373d6cf/edc77fcb-b1c1-454c-8a40-d67dd4b16d01")
 		(sheetname "/ETH-PHY/")
-		(sheetfile "mls12_eth_phy.kicad_sch")
+		(sheetfile "mls25_eth_phy.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -10914,7 +10914,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/643c732c-b7d6-4ad7-813b-2f70dd62e640/4d3108ff-4eab-48b2-abcf-035ab707cec7")
 		(sheetname "/LED output 1/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -11152,7 +11152,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f273d9bf-2cbc-4e14-bfba-1c58865ffe37/45d96111-b09a-4f24-b0f7-ba346ae783f5")
 		(sheetname "/LED output 2/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.61 2.31)
@@ -11572,7 +11572,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/mls12.3dshapes/B3B-ZR.STEP"
+		(model "${KIPRJMOD}/mls25.3dshapes/B3B-ZR.STEP"
 			(offset
 				(xyz 1.5 -0.5 0)
 			)
@@ -11584,7 +11584,7 @@
 			)
 		)
 	)
-	(footprint "mls12:LMB110S-TP"
+	(footprint "mls25:LMB110S-TP"
 		(layer "F.Cu")
 		(uuid "408b91b2-7f24-4d61-84c5-ee7d1f8a587a")
 		(at 145.75 110.25)
@@ -11665,7 +11665,7 @@
 		(property ki_fp_filters "Diode*Bridge*Vishay*KBU*")
 		(path "/9f8390ae-91ea-4278-be1f-a82b5834f728/cea61275-851f-4508-a5bf-fa16dff4fa0c")
 		(sheetname "/ETH-PoE+/")
-		(sheetfile "mls12_eth_poe.kicad_sch")
+		(sheetfile "mls25_eth_poe.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 2.3 2.85)
@@ -11859,7 +11859,7 @@
 			(uuid "500fb57c-f01c-4cd2-a7a4-ede45a7d7d0d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/mls12.3dshapes/LMB110S-TP.STEP"
+		(model "${KIPRJMOD}/mls25.3dshapes/LMB110S-TP.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11965,7 +11965,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/643c732c-b7d6-4ad7-813b-2f70dd62e640/5d30a139-e727-471d-a437-55a57181d32f")
 		(sheetname "/LED output 1/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -12299,7 +12299,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9/d700b63d-1a24-4e3f-b6e5-05a0e8d571a0")
 		(sheetname "/ETH-CONN/")
-		(sheetfile "mls12_eth_conn.kicad_sch")
+		(sheetfile "mls25_eth_conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -12537,7 +12537,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/9f8390ae-91ea-4278-be1f-a82b5834f728/b762fbe1-fd68-4abd-857e-b3b4a57ceada")
 		(sheetname "/ETH-PoE+/")
-		(sheetfile "mls12_eth_poe.kicad_sch")
+		(sheetfile "mls25_eth_poe.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.399622 -0.56)
@@ -12775,7 +12775,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/f38af1bb-7af3-4a7f-a2e8-1e69c8dce66e")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -13013,7 +13013,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/f273d9bf-2cbc-4e14-bfba-1c58865ffe37/dc8c7e65-8cf8-492d-8148-14fc0e9a2ab4")
 		(sheetname "/LED output 2/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -13347,7 +13347,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/e0a8424d-0b61-47e4-9373-6d232fad6a35")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -13607,7 +13607,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/4190ba7b-52e5-4df2-bd5e-9f20e47ec73e")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -13845,7 +13845,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f9d4ebc4-b22e-4ea3-9755-37111373d6cf/97d4b5a7-5474-4820-ba83-988d9705fd77")
 		(sheetname "/ETH-PHY/")
-		(sheetfile "mls12_eth_phy.kicad_sch")
+		(sheetfile "mls25_eth_phy.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -14072,7 +14072,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/c1c467a5-8e90-47d4-8ac4-e95be5afb2dd")
 		(sheetname "/")
-		(sheetfile "mls12.kicad_sch")
+		(sheetfile "mls25.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -14210,7 +14210,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ae2a8922-e11f-4852-8a4e-ca9ff17bae0c/d4956351-4470-42ab-926a-673d31875aa5")
 		(sheetname "/BUCK 3V3/")
-		(sheetfile "mls12_buck_3v3.kicad_sch")
+		(sheetfile "mls25_buck_3v3.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -14448,7 +14448,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/0daf9210-5879-4e1f-b386-9ecbaa621cf1")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -14686,7 +14686,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9/0fdeecea-7b58-45d5-bfcc-11d1185d02d6")
 		(sheetname "/ETH-CONN/")
-		(sheetfile "mls12_eth_conn.kicad_sch")
+		(sheetfile "mls25_eth_conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -14830,7 +14830,7 @@
 			)
 		)
 	)
-	(footprint "mls12:7490120110"
+	(footprint "mls25:7490120110"
 		(layer "F.Cu")
 		(uuid "5f46b9d3-758b-43fe-a8e6-4f77951c0a9d")
 		(at 160 112.5 180)
@@ -14913,7 +14913,7 @@
 		(property ki_fp_filters "Transformer*Ethernet*Bourns*PT61017PEL*")
 		(path "/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9/21354dec-9bbc-48b7-9216-a690c47653fd")
 		(sheetname "/ETH-CONN/")
-		(sheetfile "mls12_eth_conn.kicad_sch")
+		(sheetfile "mls25_eth_conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 4.51 6.46)
@@ -15221,7 +15221,7 @@
 			(uuid "1a96f2b7-bca1-4d36-b4de-c140aa14b672")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/mls12.3dshapes/7490120110.stp"
+		(model "${KIPRJMOD}/mls25.3dshapes/7490120110.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15327,7 +15327,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ae2a8922-e11f-4852-8a4e-ca9ff17bae0c/fff4e86a-0e15-4f77-9519-29bf9d83b93d")
 		(sheetname "/BUCK 3V3/")
-		(sheetfile "mls12_buck_3v3.kicad_sch")
+		(sheetfile "mls25_buck_3v3.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -15565,7 +15565,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9/34ac493d-6b0f-4a44-8df5-b120bde8396c")
 		(sheetname "/ETH-CONN/")
-		(sheetfile "mls12_eth_conn.kicad_sch")
+		(sheetfile "mls25_eth_conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -15919,7 +15919,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/643c732c-b7d6-4ad7-813b-2f70dd62e640/50d4e395-e6c0-476b-92ef-2607e0bbb49c")
 		(sheetname "/LED output 1/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -16157,7 +16157,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f9d4ebc4-b22e-4ea3-9755-37111373d6cf/c828aae1-7fc4-474a-b930-4dbe8f40b01f")
 		(sheetname "/ETH-PHY/")
-		(sheetfile "mls12_eth_phy.kicad_sch")
+		(sheetfile "mls25_eth_phy.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -16395,7 +16395,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f9d4ebc4-b22e-4ea3-9755-37111373d6cf/fd5d329b-5191-4288-bbf3-1fda3807bacf")
 		(sheetname "/ETH-PHY/")
-		(sheetfile "mls12_eth_phy.kicad_sch")
+		(sheetfile "mls25_eth_phy.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -16633,7 +16633,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/9f8390ae-91ea-4278-be1f-a82b5834f728/4e0fd8d2-1726-453c-a92a-4cc0a9b59bc4")
 		(sheetname "/ETH-PoE+/")
-		(sheetfile "mls12_eth_poe.kicad_sch")
+		(sheetfile "mls25_eth_poe.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.399622 -0.56)
@@ -16777,7 +16777,7 @@
 			)
 		)
 	)
-	(footprint "mls12:SMD1812B050TF_30"
+	(footprint "mls25:SMD1812B050TF_30"
 		(layer "F.Cu")
 		(uuid "66b6ed34-6f86-425b-97b6-ac06803ebc8f")
 		(at 229 117.5)
@@ -16871,7 +16871,7 @@
 		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/f273d9bf-2cbc-4e14-bfba-1c58865ffe37/2535b56c-c43f-4a91-a568-55e05d93d684")
 		(sheetname "/LED output 2/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.625 -1.71)
@@ -17003,7 +17003,7 @@
 			(uuid "862a2f79-c2bf-4443-a524-776d20f230ac")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/mls12.3dshapes/SMD1812B050TF_30.stp"
+		(model "${KIPRJMOD}/mls25.3dshapes/SMD1812B050TF_30.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17109,7 +17109,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/7f75b62b-09fd-4789-9b98-32209935a32a")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -17347,7 +17347,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/a6dd9559-aa07-46d4-ba18-35461a62a643")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -17585,7 +17585,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9/089cbdc3-923b-45a7-9868-5ac75945b01d")
 		(sheetname "/ETH-CONN/")
-		(sheetfile "mls12_eth_conn.kicad_sch")
+		(sheetfile "mls25_eth_conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -17825,7 +17825,7 @@
 		(property ki_fp_filters "D*SMA*")
 		(path "/f273d9bf-2cbc-4e14-bfba-1c58865ffe37/f2d913ea-03da-4d43-af0a-98e2300ad885")
 		(sheetname "/LED output 2/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.51 1.65)
@@ -18135,7 +18135,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/4acede43-fc4c-4377-85d3-6973bb6f24b3")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -18373,7 +18373,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9f8390ae-91ea-4278-be1f-a82b5834f728/c4738f70-7d6f-4979-834e-a9d25ca22a75")
 		(sheetname "/ETH-PoE+/")
-		(sheetfile "mls12_eth_poe.kicad_sch")
+		(sheetfile "mls25_eth_poe.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -18611,7 +18611,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/9f8390ae-91ea-4278-be1f-a82b5834f728/4dc64081-f49e-4438-ab93-2c63d71c2993")
 		(sheetname "/ETH-PoE+/")
-		(sheetfile "mls12_eth_poe.kicad_sch")
+		(sheetfile "mls25_eth_poe.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.399622 -0.56)
@@ -18755,7 +18755,7 @@
 			)
 		)
 	)
-	(footprint "mls12:DPC817S-C-TR"
+	(footprint "mls25:DPC817S-C-TR"
 		(layer "F.Cu")
 		(uuid "748670c9-ce52-49b7-a084-b76032c7921a")
 		(at 166 99.5)
@@ -18838,7 +18838,7 @@
 		(property ki_fp_filters "DIP*W7.62mm*")
 		(path "/9f8390ae-91ea-4278-be1f-a82b5834f728/66eb7a72-6bd5-4da3-82df-8d5ba94c9f9e")
 		(sheetname "/ETH-PoE+/")
-		(sheetfile "mls12_eth_poe.kicad_sch")
+		(sheetfile "mls25_eth_poe.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.6 -2.65)
@@ -19126,7 +19126,7 @@
 			(uuid "cae29106-d9ec-4788-a2f9-3309646288ab")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/mls12.3dshapes/DPC817S-C-TR.stp"
+		(model "${KIPRJMOD}/mls25.3dshapes/DPC817S-C-TR.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19232,7 +19232,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/643c732c-b7d6-4ad7-813b-2f70dd62e640/dc8c7e65-8cf8-492d-8148-14fc0e9a2ab4")
 		(sheetname "/LED output 1/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -19566,7 +19566,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ae2a8922-e11f-4852-8a4e-ca9ff17bae0c/c64b40fa-db7e-4875-b8ca-8ede7e5ef4aa")
 		(sheetname "/BUCK 3V3/")
-		(sheetfile "mls12_buck_3v3.kicad_sch")
+		(sheetfile "mls25_buck_3v3.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -19806,7 +19806,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/ae2a8922-e11f-4852-8a4e-ca9ff17bae0c/d08d03b3-3693-49e2-b1a1-f5e6ac10968a")
 		(sheetname "/BUCK 3V3/")
-		(sheetfile "mls12_buck_3v3.kicad_sch")
+		(sheetfile "mls25_buck_3v3.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.15 -3.1)
@@ -19990,7 +19990,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/mls12.3dshapes/L_XND6060YE.STEP"
+		(model "${KIPRJMOD}/mls25.3dshapes/L_XND6060YE.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20096,7 +20096,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f9d4ebc4-b22e-4ea3-9755-37111373d6cf/5878ce26-9c4f-4768-8921-d182b9538c20")
 		(sheetname "/ETH-PHY/")
-		(sheetfile "mls12_eth_phy.kicad_sch")
+		(sheetfile "mls25_eth_phy.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -20334,7 +20334,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ae2a8922-e11f-4852-8a4e-ca9ff17bae0c/ed9cc708-0daa-41ee-808f-beaffe3948d3")
 		(sheetname "/BUCK 3V3/")
-		(sheetfile "mls12_buck_3v3.kicad_sch")
+		(sheetfile "mls25_buck_3v3.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -20572,7 +20572,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f273d9bf-2cbc-4e14-bfba-1c58865ffe37/e32c882f-35d3-4ace-9018-d593707651c1")
 		(sheetname "/LED output 2/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -20810,7 +20810,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/c12d7d68-17c0-40c4-aa57-eac7b02088c5")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.11 -1.785)
@@ -21170,7 +21170,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/mls12.3dshapes/SM04B-SRSS-TB.STEP"
+		(model "${KIPRJMOD}/mls25.3dshapes/SM04B-SRSS-TB.STEP"
 			(offset
 				(xyz 0 1.3 -0.35)
 			)
@@ -21276,7 +21276,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9f8390ae-91ea-4278-be1f-a82b5834f728/ca922c8b-489f-4328-862c-5dbf0d15c438")
 		(sheetname "/ETH-PoE+/")
-		(sheetfile "mls12_eth_poe.kicad_sch")
+		(sheetfile "mls25_eth_poe.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -0.91)
@@ -21514,7 +21514,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/f273d9bf-2cbc-4e14-bfba-1c58865ffe37/5d30a139-e727-471d-a437-55a57181d32f")
 		(sheetname "/LED output 2/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -21848,7 +21848,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f9d4ebc4-b22e-4ea3-9755-37111373d6cf/62ccf376-8575-4755-8a4b-763b02e6c60c")
 		(sheetname "/ETH-PHY/")
-		(sheetfile "mls12_eth_phy.kicad_sch")
+		(sheetfile "mls25_eth_phy.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -22086,7 +22086,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f9d4ebc4-b22e-4ea3-9755-37111373d6cf/0a51c792-bae4-4ccd-b712-ec5351e55951")
 		(sheetname "/ETH-PHY/")
-		(sheetfile "mls12_eth_phy.kicad_sch")
+		(sheetfile "mls25_eth_phy.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -22311,7 +22311,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/9f8390ae-91ea-4278-be1f-a82b5834f728/1879511e-ead1-4051-8433-bbfb999734af")
 		(sheetname "/ETH-PoE+/")
-		(sheetfile "mls12_eth_poe.kicad_sch")
+		(sheetfile "mls25_eth_poe.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.295563 5.36)
@@ -22780,7 +22780,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/544bbbfc-0cf8-421b-931a-faddc87ea739")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -23018,7 +23018,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f9d4ebc4-b22e-4ea3-9755-37111373d6cf/47dd471b-e219-4b8c-918e-023550553fe3")
 		(sheetname "/ETH-PHY/")
-		(sheetfile "mls12_eth_phy.kicad_sch")
+		(sheetfile "mls25_eth_phy.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -23256,7 +23256,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/d068a2a3-68b7-4d22-9973-ab7007afc594")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -23483,7 +23483,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/e9347e63-5cec-425a-90a9-afa548b2bd6e")
 		(sheetname "/")
-		(sheetfile "mls12.kicad_sch")
+		(sheetfile "mls25.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -23610,7 +23610,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/4519468b-83e7-41b0-8168-4a2ff18d15cd")
 		(sheetname "/")
-		(sheetfile "mls12.kicad_sch")
+		(sheetfile "mls25.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -23749,7 +23749,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f9d4ebc4-b22e-4ea3-9755-37111373d6cf/973f5ac2-0c7e-40df-bb95-9bd9f0238323")
 		(sheetname "/ETH-PHY/")
-		(sheetfile "mls12_eth_phy.kicad_sch")
+		(sheetfile "mls25_eth_phy.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.14058 0.51)
@@ -23987,7 +23987,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/4dbfbf72-6f76-4407-9990-5d02255464ee")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -24225,7 +24225,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/2fe28747-ad0a-4c43-bc52-577b76dc96ab")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -24462,7 +24462,7 @@
 		)
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/d254a5be-2202-4224-8f54-9313d2edfbf8")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -5.11 -5.11)
@@ -25526,7 +25526,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/9f8390ae-91ea-4278-be1f-a82b5834f728/5583a3f0-eba3-4bfd-82a9-1d1fe7ed958d")
 		(sheetname "/ETH-PoE+/")
-		(sheetfile "mls12_eth_poe.kicad_sch")
+		(sheetfile "mls25_eth_poe.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.399622 0.56)
@@ -25764,7 +25764,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/ca1e0a04-7190-46eb-b082-1b44abc9ec6d")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -25991,7 +25991,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/d8fab8e7-5e0e-4047-9f14-0d4a4a42a205")
 		(sheetname "/")
-		(sheetfile "mls12.kicad_sch")
+		(sheetfile "mls25.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -26129,7 +26129,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/643c732c-b7d6-4ad7-813b-2f70dd62e640/21e79b5b-2aba-41b9-b03e-af3b2b46df92")
 		(sheetname "/LED output 1/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -26367,7 +26367,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/0a58ee91-4b48-4043-9e16-0b1cad403ba6")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -26633,7 +26633,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/f9d4ebc4-b22e-4ea3-9755-37111373d6cf/71b56e38-c0d9-4635-9ac6-6391e86b238a")
 		(sheetname "/ETH-PHY/")
-		(sheetfile "mls12_eth_phy.kicad_sch")
+		(sheetfile "mls25_eth_phy.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.7 0.6)
@@ -26943,7 +26943,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f9d4ebc4-b22e-4ea3-9755-37111373d6cf/4998c32e-8c0d-4763-9f91-ff70a2605b18")
 		(sheetname "/ETH-PHY/")
-		(sheetfile "mls12_eth_phy.kicad_sch")
+		(sheetfile "mls25_eth_phy.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.14058 0.51)
@@ -27087,7 +27087,7 @@
 			)
 		)
 	)
-	(footprint "mls12:SMD1812B050TF_30"
+	(footprint "mls25:SMD1812B050TF_30"
 		(layer "F.Cu")
 		(uuid "b2625905-0223-4579-9f56-e738ca2932e6")
 		(at 229 82.5)
@@ -27181,7 +27181,7 @@
 		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/643c732c-b7d6-4ad7-813b-2f70dd62e640/2535b56c-c43f-4a91-a568-55e05d93d684")
 		(sheetname "/LED output 1/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.625 -1.71)
@@ -27313,7 +27313,7 @@
 			(uuid "f84259b3-a45e-4da5-b0da-de7c42851fd9")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/mls12.3dshapes/SMD1812B050TF_30.stp"
+		(model "${KIPRJMOD}/mls25.3dshapes/SMD1812B050TF_30.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27419,7 +27419,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/1a557498-6ab4-4df5-af10-284ae3b2087e")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -27657,7 +27657,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ae2a8922-e11f-4852-8a4e-ca9ff17bae0c/caff10c0-dca8-4332-83ea-3b6fb20b312a")
 		(sheetname "/BUCK 3V3/")
-		(sheetfile "mls12_buck_3v3.kicad_sch")
+		(sheetfile "mls25_buck_3v3.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -27895,7 +27895,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/192cb8b7-9d6d-48ee-a04c-784adfcd81de/0381a2d6-a642-4c78-b14c-c0561bac0906")
 		(sheetname "/NOR Flash/")
-		(sheetfile "mls12_nor_flash.kicad_sch")
+		(sheetfile "mls25_nor_flash.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -28133,7 +28133,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f9d4ebc4-b22e-4ea3-9755-37111373d6cf/aca4f477-3fba-4db6-8c43-a49d7bcebe8f")
 		(sheetname "/ETH-PHY/")
-		(sheetfile "mls12_eth_phy.kicad_sch")
+		(sheetfile "mls25_eth_phy.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -28371,7 +28371,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f9d4ebc4-b22e-4ea3-9755-37111373d6cf/6ca279d6-6bb6-44fd-b0eb-969dfd238fb5")
 		(sheetname "/ETH-PHY/")
-		(sheetfile "mls12_eth_phy.kicad_sch")
+		(sheetfile "mls25_eth_phy.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -28609,7 +28609,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/9f8390ae-91ea-4278-be1f-a82b5834f728/6e400495-c698-40c4-8919-b0fe0b360909")
 		(sheetname "/ETH-PoE+/")
-		(sheetfile "mls12_eth_poe.kicad_sch")
+		(sheetfile "mls25_eth_poe.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.399622 -0.56)
@@ -28847,7 +28847,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f9d4ebc4-b22e-4ea3-9755-37111373d6cf/567f3217-533e-44d0-a8b8-3feb1ad7fecd")
 		(sheetname "/ETH-PHY/")
-		(sheetfile "mls12_eth_phy.kicad_sch")
+		(sheetfile "mls25_eth_phy.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -29087,7 +29087,7 @@
 		(property ki_fp_filters "D*SMA*")
 		(path "/f273d9bf-2cbc-4e14-bfba-1c58865ffe37/304c3167-18c0-4342-a093-2ad65d3ea118")
 		(sheetname "/LED output 2/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.51 1.65)
@@ -29386,7 +29386,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/192cb8b7-9d6d-48ee-a04c-784adfcd81de/c4490ed0-04fb-4dce-bc19-cee40722d862")
 		(sheetname "/NOR Flash/")
-		(sheetfile "mls12_nor_flash.kicad_sch")
+		(sheetfile "mls25_nor_flash.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start -0.95 -0.95)
@@ -29583,7 +29583,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/f9d4ebc4-b22e-4ea3-9755-37111373d6cf/dd27358e-0635-4ff1-9c1d-e33366206b11")
 		(sheetname "/ETH-PHY/")
-		(sheetfile "mls12_eth_phy.kicad_sch")
+		(sheetfile "mls25_eth_phy.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -2.06 -1.71)
@@ -29786,7 +29786,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9f8390ae-91ea-4278-be1f-a82b5834f728/5b77f17f-2a7e-4abd-b7f3-d9d3254d0472")
 		(sheetname "/ETH-PoE+/")
-		(sheetfile "mls12_eth_poe.kicad_sch")
+		(sheetfile "mls25_eth_poe.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -30024,7 +30024,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/83a405a9-ab8c-4b47-869d-344b69d128ec")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -30262,7 +30262,7 @@
 		(property ki_fp_filters "QFN*1EP*4x4mm*P0.5mm*")
 		(path "/f9d4ebc4-b22e-4ea3-9755-37111373d6cf/6544d0e5-e46a-4fbc-b8fe-e9611d5b6631")
 		(sheetname "/ETH-PHY/")
-		(sheetfile "mls12_eth_phy.kicad_sch")
+		(sheetfile "mls25_eth_phy.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.11 -1.635)
@@ -30965,7 +30965,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/f273d9bf-2cbc-4e14-bfba-1c58865ffe37/8256b5ef-aac2-414d-b6b3-4444b6b62ead")
 		(sheetname "/LED output 2/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.4375 -1.8475)
@@ -31434,7 +31434,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/8bec8ca3-f757-4568-962c-0c018e8f535c")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -31672,7 +31672,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/192cb8b7-9d6d-48ee-a04c-784adfcd81de/26754613-b385-4d54-8f11-ef84e655cc9b")
 		(sheetname "/NOR Flash/")
-		(sheetfile "mls12_nor_flash.kicad_sch")
+		(sheetfile "mls25_nor_flash.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -31910,7 +31910,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/d8d20304-a1f9-458b-80b0-b3a9b3486df0")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -32148,7 +32148,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/643c732c-b7d6-4ad7-813b-2f70dd62e640/dd6fb59c-def0-4784-987f-1309baedfa02")
 		(sheetname "/LED output 1/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -32375,7 +32375,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/f4a28425-b92b-4247-807a-b52cbcecfb49")
 		(sheetname "/")
-		(sheetfile "mls12.kicad_sch")
+		(sheetfile "mls25.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -32514,7 +32514,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/70ec3afb-bdaa-421b-b59e-5d6259056637")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -32752,7 +32752,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f273d9bf-2cbc-4e14-bfba-1c58865ffe37/dd1c25e3-fc00-4de3-8795-d6d8582ce240")
 		(sheetname "/LED output 2/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -32979,7 +32979,7 @@
 		(property ki_fp_filters "D*SMA*")
 		(path "/9f8390ae-91ea-4278-be1f-a82b5834f728/4863e0bb-c4ec-4e62-bd9f-96bdef518a00")
 		(sheetname "/ETH-PoE+/")
-		(sheetfile "mls12_eth_poe.kicad_sch")
+		(sheetfile "mls25_eth_poe.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.51 -1.65)
@@ -33289,7 +33289,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f9d4ebc4-b22e-4ea3-9755-37111373d6cf/ba3f47f0-2c51-4d62-af39-2648280c4813")
 		(sheetname "/ETH-PHY/")
-		(sheetfile "mls12_eth_phy.kicad_sch")
+		(sheetfile "mls25_eth_phy.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -33527,7 +33527,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ae2a8922-e11f-4852-8a4e-ca9ff17bae0c/92f1481f-b934-48a7-a2d9-aa720d51b8a3")
 		(sheetname "/BUCK 3V3/")
-		(sheetfile "mls12_buck_3v3.kicad_sch")
+		(sheetfile "mls25_buck_3v3.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -33671,7 +33671,7 @@
 			)
 		)
 	)
-	(footprint "mls12:LMB110S-TP"
+	(footprint "mls25:LMB110S-TP"
 		(layer "F.Cu")
 		(uuid "debd909a-b741-4a0e-9310-4d5f606f9ed6")
 		(at 137.75 110.25 180)
@@ -33752,7 +33752,7 @@
 		(property ki_fp_filters "Diode*Bridge*Vishay*KBU*")
 		(path "/9f8390ae-91ea-4278-be1f-a82b5834f728/07d416d2-42da-4b85-af6a-71fae6529106")
 		(sheetname "/ETH-PoE+/")
-		(sheetfile "mls12_eth_poe.kicad_sch")
+		(sheetfile "mls25_eth_poe.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 2.4 -2.85)
@@ -33946,7 +33946,7 @@
 			(uuid "9ee4f7b8-d966-4194-a460-23c89bfba69f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/mls12.3dshapes/LMB110S-TP.STEP"
+		(model "${KIPRJMOD}/mls25.3dshapes/LMB110S-TP.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34052,7 +34052,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/643c732c-b7d6-4ad7-813b-2f70dd62e640/eb5e454f-7acf-47a5-87ca-6f0230209abb")
 		(sheetname "/LED output 1/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -34290,7 +34290,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f9d4ebc4-b22e-4ea3-9755-37111373d6cf/a17f078d-892b-4152-bbb5-a844167dbbfd")
 		(sheetname "/ETH-PHY/")
-		(sheetfile "mls12_eth_phy.kicad_sch")
+		(sheetfile "mls25_eth_phy.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -34503,7 +34503,7 @@
 		)
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/15b8c287-5e70-44ed-a127-6139232be83d")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -4.445 1.27)
@@ -34878,7 +34878,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/e4cb2ed9-54be-4e94-8f0b-d16a473693c7")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -35116,7 +35116,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ae2a8922-e11f-4852-8a4e-ca9ff17bae0c/78fa0797-eed1-4359-903c-c93578e3ac89")
 		(sheetname "/BUCK 3V3/")
-		(sheetfile "mls12_buck_3v3.kicad_sch")
+		(sheetfile "mls25_buck_3v3.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -35353,7 +35353,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/80dc8c35-d35f-4717-a9ec-dc60ab65a8d0")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.06 -1.71)
@@ -35556,7 +35556,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/9f8390ae-91ea-4278-be1f-a82b5834f728/f7333a52-51e2-4cd5-a681-0da441d94e41")
 		(sheetname "/ETH-PoE+/")
-		(sheetfile "mls12_eth_poe.kicad_sch")
+		(sheetfile "mls25_eth_poe.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.399622 0.56)
@@ -35794,7 +35794,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/8e07cb79-fd47-4d81-8c82-a3ac1bf320f6")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -36032,7 +36032,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f273d9bf-2cbc-4e14-bfba-1c58865ffe37/4d3108ff-4eab-48b2-abcf-035ab707cec7")
 		(sheetname "/LED output 2/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -36270,7 +36270,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/fb3360b7-b050-4961-aa46-a26bb630bd1e")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -36508,7 +36508,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/643c732c-b7d6-4ad7-813b-2f70dd62e640/d6880453-e54b-410a-9433-9d5f03c1eb5b")
 		(sheetname "/LED output 1/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -36746,7 +36746,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9/64d95029-638d-4969-bb21-0310de58f49b")
 		(sheetname "/ETH-CONN/")
-		(sheetfile "mls12_eth_conn.kicad_sch")
+		(sheetfile "mls25_eth_conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -36984,7 +36984,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/dc7a20ec-36e8-43f1-be6d-48ec59911fb8")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -37222,7 +37222,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/bdde8133-c381-47a8-ab64-1ccd519b42d5")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -37460,7 +37460,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/db776b11-42d4-46ae-8366-cddd423ebd20")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -37698,7 +37698,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/643c732c-b7d6-4ad7-813b-2f70dd62e640/45d96111-b09a-4f24-b0f7-ba346ae783f5")
 		(sheetname "/LED output 1/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.61 2.31)
@@ -38118,7 +38118,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/mls12.3dshapes/B3B-ZR.STEP"
+		(model "${KIPRJMOD}/mls25.3dshapes/B3B-ZR.STEP"
 			(offset
 				(xyz 1.5 -0.5 0)
 			)
@@ -38213,7 +38213,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/9f8390ae-91ea-4278-be1f-a82b5834f728/a2c6eb86-4b19-4f24-b3b9-e536df2890b3")
 		(sheetname "/ETH-PoE+/")
-		(sheetfile "mls12_eth_poe.kicad_sch")
+		(sheetfile "mls25_eth_poe.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start -0.95 -0.95)
@@ -38411,7 +38411,7 @@
 		(property ki_fp_filters "*SOIC*5.3x5.3mm*P1.27mm*")
 		(path "/192cb8b7-9d6d-48ee-a04c-784adfcd81de/d5504d71-caa2-4de5-b725-2a0a61f051f8")
 		(sheetname "/NOR Flash/")
-		(sheetfile "mls12_nor_flash.kicad_sch")
+		(sheetfile "mls25_nor_flash.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.76 2.76)
@@ -38835,7 +38835,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/2b2107ad-053d-40e3-bb25-67baef26cf91")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -39075,7 +39075,7 @@
 		(property ki_fp_filters "D*SMA*")
 		(path "/643c732c-b7d6-4ad7-813b-2f70dd62e640/304c3167-18c0-4342-a093-2ad65d3ea118")
 		(sheetname "/LED output 1/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.51 1.65)
@@ -39374,7 +39374,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/24d64e1c-df9f-4726-b1f7-b41afc2a8b6c")
 		(sheetname "/")
-		(sheetfile "mls12.kicad_sch")
+		(sheetfile "mls25.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -39419,7 +39419,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "mls12:DC_Barrel_Plug_2.1x5.5mm"
+	(footprint "mls25:DC_Barrel_Plug_2.1x5.5mm"
 		(layer "F.Cu")
 		(uuid "fe83cf98-4549-4dbf-abf3-5ac99e7c88b5")
 		(at 227 113)
@@ -39516,7 +39516,7 @@
 		(property ki_fp_filters "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO*")
 		(path "/f273d9bf-2cbc-4e14-bfba-1c58865ffe37/a18d5b48-e6f0-4e8d-903a-cbb357c83453")
 		(sheetname "/LED output 2/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 0 -2.02)
@@ -39774,7 +39774,7 @@
 			(uuid "0f6e0e12-9bd8-4bc7-a454-d20bafc68c00")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/mls12.3dshapes/DC Power Plug 2.1x5.5mm.stp"
+		(model "${KIPRJMOD}/mls25.3dshapes/DC Power Plug 2.1x5.5mm.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39882,7 +39882,7 @@
 		(property ki_fp_filters "D*SMA*")
 		(path "/643c732c-b7d6-4ad7-813b-2f70dd62e640/f2d913ea-03da-4d43-af0a-98e2300ad885")
 		(sheetname "/LED output 1/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.51 1.65)
@@ -40188,7 +40188,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/14a99ed8-3b81-41cf-ae9b-c1f1c59c4cff")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -40325,7 +40325,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/f9d4ebc4-b22e-4ea3-9755-37111373d6cf/f15c4786-d4a5-4eb1-a877-39a8ed3fb524")
 		(sheetname "/ETH-PHY/")
-		(sheetfile "mls12_eth_phy.kicad_sch")
+		(sheetfile "mls25_eth_phy.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -40463,7 +40463,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/9f8390ae-91ea-4278-be1f-a82b5834f728/59d5c752-545f-4d66-a48a-624497cc30eb")
 		(sheetname "/ETH-PoE+/")
-		(sheetfile "mls12_eth_poe.kicad_sch")
+		(sheetfile "mls25_eth_poe.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -40601,7 +40601,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/9f8390ae-91ea-4278-be1f-a82b5834f728/05eecf07-364a-467e-a425-df7390874db1")
 		(sheetname "/ETH-PoE+/")
-		(sheetfile "mls12_eth_poe.kicad_sch")
+		(sheetfile "mls25_eth_poe.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -40738,7 +40738,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/f9d4ebc4-b22e-4ea3-9755-37111373d6cf/3f9a213c-4fee-45a2-8ae4-bf3a929d9ede")
 		(sheetname "/ETH-PHY/")
-		(sheetfile "mls12_eth_phy.kicad_sch")
+		(sheetfile "mls25_eth_phy.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start -0.95 -0.95)
@@ -40933,7 +40933,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/b288dc3d-2b29-41ca-a804-f00c5497f0b0")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -41070,7 +41070,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/84fc35a2-0221-4bcc-ab27-ebb4dbce0e12")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -41207,7 +41207,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/817c595a-1b66-4023-806f-d4e46499c11d")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -41345,7 +41345,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/9f8390ae-91ea-4278-be1f-a82b5834f728/deac91b4-df56-4d6f-8459-f5c23b57acee")
 		(sheetname "/ETH-PoE+/")
-		(sheetfile "mls12_eth_poe.kicad_sch")
+		(sheetfile "mls25_eth_poe.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -41482,7 +41482,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/2bbdbd48-cc9a-49c8-9073-f10d76f406d9")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start -0.95 -0.95)
@@ -41677,7 +41677,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/ba465379-ab97-4716-83a6-be49581331db")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -41814,7 +41814,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/49c4d3a6-63a5-45d3-8cb5-56012eb00ccc")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -41951,7 +41951,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/c533c90f-fe91-4dcb-a4b0-18ff2d618114")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start -0.95 -0.95)
@@ -42146,7 +42146,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/f273d9bf-2cbc-4e14-bfba-1c58865ffe37/1abe8b02-d5fb-4cf6-9964-086c2fb5f621")
 		(sheetname "/LED output 2/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start -0.95 -0.95)
@@ -42342,7 +42342,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/9f8390ae-91ea-4278-be1f-a82b5834f728/30ab1d7f-093c-42fd-b27a-1eee9cbb3135")
 		(sheetname "/ETH-PoE+/")
-		(sheetfile "mls12_eth_poe.kicad_sch")
+		(sheetfile "mls25_eth_poe.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start -0.95 -0.95)
@@ -42538,7 +42538,7 @@
 		(property ki_fp_filters "SolderJumper*Bridged*")
 		(path "/9f8390ae-91ea-4278-be1f-a82b5834f728/b464f597-0c02-4e9b-a21e-575f5f185b98")
 		(sheetname "/ETH-PoE+/")
-		(sheetfile "mls12_eth_poe.kicad_sch")
+		(sheetfile "mls25_eth_poe.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2")
@@ -42853,7 +42853,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/643c732c-b7d6-4ad7-813b-2f70dd62e640/b40f5b68-d81b-427c-8e02-1846e6fcfedd")
 		(sheetname "/LED output 1/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -42991,7 +42991,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/f9d4ebc4-b22e-4ea3-9755-37111373d6cf/deada304-60c1-478b-bb53-bdabef03c444")
 		(sheetname "/ETH-PHY/")
-		(sheetfile "mls12_eth_phy.kicad_sch")
+		(sheetfile "mls25_eth_phy.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -43129,7 +43129,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ae2a8922-e11f-4852-8a4e-ca9ff17bae0c/cbe7d9d8-78b0-4136-b195-bd3387073641")
 		(sheetname "/BUCK 3V3/")
-		(sheetfile "mls12_buck_3v3.kicad_sch")
+		(sheetfile "mls25_buck_3v3.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start -0.95 -0.95)
@@ -43324,7 +43324,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/f9d4ebc4-b22e-4ea3-9755-37111373d6cf/252a995f-3633-48c5-ada8-677891b5a78a")
 		(sheetname "/ETH-PHY/")
-		(sheetfile "mls12_eth_phy.kicad_sch")
+		(sheetfile "mls25_eth_phy.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -43461,7 +43461,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/8dc06a56-4d9a-4894-b7eb-3f63e1c4f1fa")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -43598,7 +43598,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/643c732c-b7d6-4ad7-813b-2f70dd62e640/3f07b84d-8708-4452-90ae-4a3f08797eba")
 		(sheetname "/LED output 1/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -43735,7 +43735,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/1ecf16c4-1f35-453d-aa72-9a818ba8217c")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -43872,7 +43872,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/f273d9bf-2cbc-4e14-bfba-1c58865ffe37/3f07b84d-8708-4452-90ae-4a3f08797eba")
 		(sheetname "/LED output 2/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -44010,7 +44010,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/f9d4ebc4-b22e-4ea3-9755-37111373d6cf/e68951f3-4883-4f03-8ca0-2b3cc9cb48aa")
 		(sheetname "/ETH-PHY/")
-		(sheetfile "mls12_eth_phy.kicad_sch")
+		(sheetfile "mls25_eth_phy.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -44147,7 +44147,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/643c732c-b7d6-4ad7-813b-2f70dd62e640/1abe8b02-d5fb-4cf6-9964-086c2fb5f621")
 		(sheetname "/LED output 1/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start -0.95 -0.95)
@@ -44343,7 +44343,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/9f8390ae-91ea-4278-be1f-a82b5834f728/f1f23873-de92-47b0-90d0-85aa148b95dd")
 		(sheetname "/ETH-PoE+/")
-		(sheetfile "mls12_eth_poe.kicad_sch")
+		(sheetfile "mls25_eth_poe.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start -0.95 -0.95)
@@ -44538,7 +44538,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/9f8390ae-91ea-4278-be1f-a82b5834f728/be03dc86-7bc3-4fbb-b24b-3ec11eede2ba")
 		(sheetname "/ETH-PoE+/")
-		(sheetfile "mls12_eth_poe.kicad_sch")
+		(sheetfile "mls25_eth_poe.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start -0.95 -0.95)
@@ -44734,7 +44734,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ae2a8922-e11f-4852-8a4e-ca9ff17bae0c/67911f36-29a0-4ed1-8c99-e94a4cdde2f4")
 		(sheetname "/BUCK 3V3/")
-		(sheetfile "mls12_buck_3v3.kicad_sch")
+		(sheetfile "mls25_buck_3v3.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -44871,7 +44871,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/302b6a68-f945-4d74-bd08-29eb164cd442/ebd09f96-0c5f-4be0-8751-39adb4bc0957")
 		(sheetname "/MCU/")
-		(sheetfile "mls12_mcu.kicad_sch")
+		(sheetfile "mls25_mcu.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -45008,7 +45008,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/f273d9bf-2cbc-4e14-bfba-1c58865ffe37/b40f5b68-d81b-427c-8e02-1846e6fcfedd")
 		(sheetname "/LED output 2/")
-		(sheetfile "mls12_led_output.kicad_sch")
+		(sheetfile "mls25_led_output.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)

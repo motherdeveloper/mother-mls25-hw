@@ -178,7 +178,7 @@
 		(uuid "8be6256c-783f-43de-a5d5-09c379dccd7a")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/mls12.3dshapes/SMD1812B050TF_30.stp"
+	(model "${KIPRJMOD}/mls25.3dshapes/SMD1812B050TF_30.stp"
 		(offset
 			(xyz 0 0 0)
 		)

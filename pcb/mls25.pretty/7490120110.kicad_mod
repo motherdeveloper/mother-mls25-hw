@@ -324,7 +324,7 @@
 		(uuid "0d743f6f-559b-46c5-9142-1fef90c164ac")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/mls12.3dshapes/7490120110.stp"
+	(model "${KIPRJMOD}/mls25.3dshapes/7490120110.stp"
 		(offset
 			(xyz 0 0 0)
 		)
