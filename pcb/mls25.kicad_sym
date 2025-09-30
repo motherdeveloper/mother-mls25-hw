@@ -4168,7 +4168,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -10.16 -6.35 0)
 				(length 2.54)
 				(name "VCAP"
@@ -4186,7 +4186,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -10.16 -8.89 0)
 				(length 2.54)
 				(name "VCAP"
@@ -4204,7 +4204,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at -10.16 -13.97 0)
 				(length 2.54)
 				(name "~{RESET}"

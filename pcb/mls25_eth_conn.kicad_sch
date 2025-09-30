@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Ethernet RJ45 + Magnetics")
-		(date "2025-07-26")
+		(date "2025-09-27")
 		(rev "A")
 		(company "Quomodo BV")
 	)
@@ -1273,7 +1273,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "mls25:7490120110"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -3223,6 +3223,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Ethernet routing checklist"
 		(exclude_from_sim no)
@@ -3297,6 +3398,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f3fb9cb-9a42-4305-8e7e-d535b3eb37d7")
+	)
+	(junction
+		(at 77.47 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1de43e4d-f9cd-4f70-ad65-c3a7f809cf99")
 	)
 	(junction
 		(at 204.47 93.98)
@@ -3710,7 +3817,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 104.14) (xy 77.47 107.95)
+			(xy 77.47 104.14) (xy 77.47 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4270,6 +4377,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 105.41) (xy 77.47 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff74ef3a-3290-409b-a8da-804280feb3ed")
+	)
+	(wire
+		(pts
 			(xy 204.47 101.6) (xy 204.47 97.79)
 		)
 		(stroke
@@ -4547,6 +4664,92 @@
 					(italic yes)
 				)
 				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 77.47 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0615763c-8629-45df-8cf4-df723beafc76")
+		(property "Reference" "#FLG03"
+			(at 79.375 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 81.28 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 77.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 77.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 77.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbfe097e-8e31-49d2-8eb8-c6c0c73ee277")
+		)
+		(instances
+			(project ""
+				(path "/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9"
+					(reference "#FLG03")
+					(unit 1)
+				)
 			)
 		)
 	)

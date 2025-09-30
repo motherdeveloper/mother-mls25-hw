@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "NOR flash memory")
-		(date "2025-07-26")
+		(date "2025-09-27")
 		(rev "A")
 		(company "Quomodo BV")
 	)
