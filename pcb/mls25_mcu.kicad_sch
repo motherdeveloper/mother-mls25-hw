@@ -13054,6 +13054,17 @@
 		)
 		(uuid "adb04a3c-3e18-45a5-ae1f-02e9674905e7")
 	)
+	(text "DET: active-low,\ninternal pull-up"
+		(exclude_from_sim no)
+		(at 275.59 217.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2d5a982-b66e-490b-8ac0-eff823acd2b2")
+	)
 	(text "~{RESET} has internal pull-up.\nCap is sufficient.\n\nBOOT0 low = boot from flash.\nBoot address configured in option bytes.\nDefault boot address: 0x08000000"
 		(exclude_from_sim no)
 		(at 114.808 115.824 0)

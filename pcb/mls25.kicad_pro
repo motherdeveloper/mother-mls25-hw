@@ -264,28 +264,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "multiple_net_names|1435100|838200|9758596e-6091-4b7e-b114-0fac11a67a9d|c4b17812-7c58-435a-85b5-3d93fce23ab2|/53bda2f8-fdf0-44f4-aced-3b46017d299c/302b6a68-f945-4d74-bd08-29eb164cd442|/53bda2f8-fdf0-44f4-aced-3b46017d299c/302b6a68-f945-4d74-bd08-29eb164cd442|/53bda2f8-fdf0-44f4-aced-3b46017d299c/302b6a68-f945-4d74-bd08-29eb164cd442",
-        "Intentional"
-      ],
-      [
-        "multiple_net_names|2336800|1104900|3304f582-e6a6-4af6-b973-e7e7e5a3b97b|848883b2-dcf3-40e6-858c-8024e06bbaff|/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9|/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9|/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9",
-        ""
-      ],
-      [
-        "multiple_net_names|2336800|812800|3304f582-e6a6-4af6-b973-e7e7e5a3b97c|307330df-fda9-4a04-aa7c-8d001f969a2d|/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9|/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9|/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9",
-        ""
-      ],
-      [
-        "multiple_net_names|2336800|939800|3304f582-e6a6-4af6-b973-e7e7e5a3b97d|a80a2079-073d-4d04-8f47-33ef9103ea92|/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9|/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9|/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9",
-        ""
-      ],
-      [
-        "multiple_net_names|2336800|977900|3304f582-e6a6-4af6-b973-e7e7e5a3b97e|8b0a6c08-4600-4d98-a467-180ded6e8339|/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9|/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9|/53bda2f8-fdf0-44f4-aced-3b46017d299c/cde1e0ff-e1f1-4d38-b939-7ba11eaafca9",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -953,7 +932,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -992,7 +971,7 @@
           "show": false
         }
       ],
-      "filter_string": "d",
+      "filter_string": "R",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
