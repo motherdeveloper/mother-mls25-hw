@@ -5100,7 +5100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
+		(property "Footprint" "mls25:KSZ8081_QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
 			(at 100.33 129.54 0)
 			(effects
 				(font
