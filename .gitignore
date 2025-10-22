@@ -1,5 +1,6 @@
 # Project-specific
 /build
+/pcb/release
 
 ### KiCad ###
 # For PCBs designed using KiCad: https://www.kicad.org/
