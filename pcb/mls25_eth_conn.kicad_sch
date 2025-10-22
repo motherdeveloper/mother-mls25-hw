@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Ethernet RJ45 + Magnetics")
-		(date "2025-09-27")
+		(date "2025-10-22")
 		(rev "A")
 		(company "Quomodo BV")
 	)
